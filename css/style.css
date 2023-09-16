@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main-page {
+    height: 100vh;
+    background-color: rgb(16, 16, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-page div {
+    text-align: center;
+    width: 100%;
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15vw;
+    margin: -50px;
+    flex: 1;
+    opacity: .4;
+    
+}
+
+.main-page .name-1 {
+    color: transparent; /* Make the text color transparent */
+    -webkit-text-stroke: 5px rgb(54, 54, 54); /* Apply a white outline with 2px width */
+    text-stroke: 5px white; /* Apply a white outline with 2px width (for modern browsers) */
+    -webkit-background-clip: text;
+    background-clip: text; /* Allow the text outline to be visible */
+    opacity: 1;
+}
+.main-page .name-3 {
+    color: transparent; /* Make the text color transparent */
+    -webkit-text-stroke: 5px rgb(54, 54, 54); /* Apply a white outline with 2px width */
+    text-stroke: 5px white; /* Apply a white outline with 2px width (for modern browsers) */
+    -webkit-background-clip: text;
+    background-clip: text; /* Allow the text outline to be visible */
+    opacity: 1;
+}
+
+.main-page-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(236, 235, 233);
+    height: 500px;
+    width: 1000px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+.main-page-content p {
+    width: 550px;
+}
+
+.CV-button {
+    margin-top: 20px;
+    padding: 10px 1px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.container-img {
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    width: 7vh;
+    background-color: rgb(236, 235, 233);
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-list ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list ul {
+    list-style: none;
+}
+
+.nav-list ul li{
+    padding: 50px;
+}
+
+.nav-list a {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
