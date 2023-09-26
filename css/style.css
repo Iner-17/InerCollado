@@ -166,17 +166,28 @@
 
 .about-container {
     width: 100%;
-    padding: 10rem 11%;
+    padding: 10rem 20%;
     height: 100vh;
-    background-color: rgb(16, 16, 20)
+    background-color: rgb(32, 32, 43)
 }
 
 .about-container h1 {
-    text-align: center;
+    text-align: left;
     color: white;
-    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
-    text-decoration: underline;
-    padding: 0 0 28px;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.about-content {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    font-family: 'Poppins', sans-serif;
+    color: rgb(202, 199, 199);
+}
+
+.about-content .first {
+    font-weight: 550;
+    font-size: 1.1rem;
 }
