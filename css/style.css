@@ -166,7 +166,7 @@
 
 .about-container {
     width: 100%;
-    padding: 10rem 20%;
+    padding: 6rem 20%;
     height: 100vh;
     background-color: rgb(32, 32, 43)
 }
@@ -180,8 +180,9 @@
 }
 
 .about-content {
+    margin-top: 50px;
     display: grid;
-    gap: 2rem;
+    gap: 5rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     font-family: 'Poppins', sans-serif;
     color: rgb(202, 199, 199);
@@ -189,5 +190,21 @@
 
 .about-content .first {
     font-weight: 550;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+}
+
+.linkIn {
+    font-size: 15px;
+    background: transparent;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border: 1px solid rgb(202, 199, 199);
+    color: rgb(202, 199, 199);
+    cursor: pointer;
+}
+
+.linkIn:hover {
+    border: 1px solid rgb(202, 199, 199);
+    color: rgb(202, 199, 199);
+    background-color: rgb(50, 50, 63);
 }
