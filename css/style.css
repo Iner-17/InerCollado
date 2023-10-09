@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 html {
@@ -181,7 +183,7 @@ html {
 }
 
 
-/* ABOUT STYLE */
+/* ABOUT CSS */
 
 .about-container {
     padding: 6rem 20%;
@@ -231,6 +233,8 @@ html {
     background-color: rgb(50, 50, 63);
 }
 
+/* SKILLS CSS */
+
 .skills-container {
     min-height: 100vh;
     padding: 6rem 20%;
@@ -279,3 +283,116 @@ html {
     height: 70px;
 }
 
+/* PROJECT CSS */
+
+.project-container {
+    
+    min-height: 100vh;
+    padding: 6rem 20%;
+    background-color: rgb(32, 32, 43)
+}
+
+.project-container h1 {
+    text-align: left;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card {
+    width: 670px;
+    border-radius: 10px;
+    background-color: rgb(48, 48, 56);
+}
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    background-color: rgb(48, 48, 56);
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.slide-content {
+    margin: 0 40px;
+
+}
+
+.card-image {
+    position: relative;
+    padding: 3px;
+    
+}
+
+.card-img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-content, .card-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-content .name {
+    font-size: 24px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.description {
+    font-size: 18px;
+    color: #e0dcdc;
+    text-align: center;
+}
+
+.card-content .button {
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    padding: 6px 24px;
+    border-radius: 5px;
+    background-color: #0051ff;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.button:hover {
+    background-color: #3b77fa;
+}
+
+.swiper-navBtn {
+    color: #fffefe;
+}
+
+.swiper-navBtn:hover {
+    color: #7e7d7d;
+}
