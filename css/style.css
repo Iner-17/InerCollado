@@ -300,6 +300,13 @@ html {
     font-style: italic;
 }
 
+.project-info {
+    margin-top: 50px;
+    font-family: 'Poppins';
+    color: rgb(202, 199, 199);
+    text-indent: 3rem;
+}
+
 .container {
     display: flex;
     justify-content: center;
