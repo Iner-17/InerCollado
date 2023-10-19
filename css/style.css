@@ -403,3 +403,9 @@ html {
 .swiper-navBtn:hover {
     color: #7e7d7d;
 }
+
+.contact-container {
+    min-height: 100vh;
+    padding: 6rem 20%;
+    background-color: rgb(16, 16, 20);
+}
